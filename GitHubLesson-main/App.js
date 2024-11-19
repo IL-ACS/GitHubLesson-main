@@ -1,4 +1,4 @@
-import { StyleSheet, SafeAreaView } from 'react-native';
+import { Text, StyleSheet, SafeAreaView } from 'react-native';
 
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       {screen}
+      <Text>wowoow</Text>
     </SafeAreaView>
   );
 }
