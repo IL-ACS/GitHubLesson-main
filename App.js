@@ -1,6 +1,7 @@
 import { Text, StyleSheet, SafeAreaView } from 'react-native';
-import FirstPage from './screens/FirstPage';
-
+import FirstPage from './screens.FirstPage';
+//npm uninstall expo
+//npm install expo@51
 export default function App() {
   let screen = <FirstPage />
 
