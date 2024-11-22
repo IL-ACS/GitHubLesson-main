@@ -1,5 +1,4 @@
 import { View, StyleSheet } from "react-native";
-
 import MainButton from "../components/MainButton";
 
 function MainPage(props) {
@@ -8,6 +7,7 @@ function MainPage(props) {
             <MainButton>Main Page</MainButton>
             <MainButton>Second Page</MainButton>
             <MainButton>Third Page</MainButton>
+            <MainButton>Fourth Page</MainButton>
         </View>
     );
 }
